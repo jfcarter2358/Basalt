@@ -1,0 +1,2 @@
+cartils==0.0.5
+pandas==1.2.5

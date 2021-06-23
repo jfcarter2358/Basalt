@@ -1,0 +1,69 @@
+{
+    "name": "network1",
+    "description": "test network",
+    "nodes": [
+        {
+            "id": "50ae724a-0c03-4709-bf3a-3dbbd33ca7a4",
+            "text": "main",
+            "foreground_color": "#ffffff",
+            "background_color": "#000000",
+            "border_color": "#00ff00",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "391b9a5b-079b-45fb-9b76-8dbaa7dddb93",
+            "text": "child right 1",
+            "foreground_color": "#ffffff",
+            "background_color": "#000000",
+            "border_color": "#00ff00",
+            "x": 20,
+            "y": 0
+        },
+        {
+            "id": "4b0bc52f-7e80-4348-befc-964c5f664e9a",
+            "text": "child left 1",
+            "foreground_color": "#ffffff",
+            "background_color": "#000000",
+            "border_color": "#00ff00",
+            "x": -20,
+            "y": 0
+        },
+        {
+            "id": "5332ec1b-c4a6-4725-a3b5-8369dea3ca40",
+            "text": "grandchild left 1",
+            "foreground_color": "#ffffff",
+            "background_color": "#000000",
+            "border_color": "#00ff00",
+            "x": -40,
+            "y": 20
+        },
+        {
+            "id": "db15a744-0094-4ffb-a701-0118b2f9c13e",
+            "text": "grandchild left 2",
+            "foreground_color": "#ffffff",
+            "background_color": "#000000",
+            "border_color": "#00ff00",
+            "x": -40,
+            "y": -20
+        }
+    ],
+    "links": [
+        {
+            "from": "391b9a5b-079b-45fb-9b76-8dbaa7dddb93",
+            "to": "50ae724a-0c03-4709-bf3a-3dbbd33ca7a4"
+        },
+        {
+            "from": "50ae724a-0c03-4709-bf3a-3dbbd33ca7a4",
+            "to": "4b0bc52f-7e80-4348-befc-964c5f664e9a"
+        },
+        {
+            "from": "4b0bc52f-7e80-4348-befc-964c5f664e9a",
+            "to": "5332ec1b-c4a6-4725-a3b5-8369dea3ca40"
+        },
+        {
+            "from": "4b0bc52f-7e80-4348-befc-964c5f664e9a",
+            "to": "db15a744-0094-4ffb-a701-0118b2f9c13e"
+        }
+    ]
+}
